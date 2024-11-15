@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+.container{
+  text-align: center;
+  background-color: #60fd00;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+h1{
+  margin-bottom: 20px;
+}
+
+.time-display{
+  font-size: 2em;
+  margin-bottom: 20px;
+ 
+}
+input[type="time"]{
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+button{
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 5px;
+}
+#alarm-status{
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
+#current-time{
+  color: #131313
+}

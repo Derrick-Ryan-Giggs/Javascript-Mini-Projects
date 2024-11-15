@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-bottom: 20px;
+}
+#puzzle-container{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 5px;
+}
+.tile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3498db;
+    font-size: 24px;
+    border: 2px solid #2980b9;
+    cursor: pointer;
+}
+.empty{
+    background-color: #ecf0f1;
+    border: none;
+}
+#shuffle-btn {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border: none; 
+    margin-top: 25px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+/* Hover effect */
+#shuffle-btn:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+}
+
+/* Active effect when clicked */
+#shuffle-btn:active {
+    background-color: #3e8e41; 
+    transform: scale(0.98); 
+}

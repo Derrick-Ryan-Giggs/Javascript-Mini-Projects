@@ -1,0 +1,32 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background-color: #118bed;
+  justify-content: center;
+}
+
+.music-player{
+  text-align: center;
+  background-color:#00ffff ;
+  padding: 20px;
+  box-shadow: 0 0 0 rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.controls button{
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d853e0;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+#song-info{
+  margin-top: 15px;
+  font-size: 18px;
+}
